@@ -14,7 +14,7 @@ function preload() {
 }
 
 function setup(){
-    canvas = createCanvas(1100,800);
+    canvas = createCanvas(1000,800);
 
     mouse = createSprite(200, 600);
     mouse.addAnimation("mouseStanding", mouseImg1);
@@ -46,7 +46,7 @@ function draw() {
         mouse.changeAnimation("mouseLastImage");
     }*/
 
-    if(cat.x - mouse.y < (cat.width - mouse.y)/2)
+    /*if(cat.x - mouse.y < (cat.width - mouse.y)/2)
     { 
         cat.velocityX= -4;
         cat.addAnimation("catLastImage", catImg3);
@@ -56,7 +56,7 @@ function draw() {
         mouse.addAnimation("mouseLastImage", mouseImg3);
         mouse.scale=0.15;
         mouse.changeAnimation("mouseLastImage");
-    }
+    }*/
 
     /*if(cat.x - mouse.x < (cat.width - mouse.width)/2)
     { 
